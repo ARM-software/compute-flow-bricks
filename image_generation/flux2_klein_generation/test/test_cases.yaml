@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: Copyright 2026 Arm Limited and/or its affiliates <open-source-office@arm.com>
+# SPDX-License-Identifier: Apache-2.0
+models:
+  flux2klein-4b-generation-int4-320px:
+    flux2_klein_generation_manifest.json:
+      - args: ["-p", "A blue ceramic mug beside a croissant", "-o", "mug.png", "-t", "2"]
+    flux2_klein_generation_4step_manifest.json:
+      - args: ["-p", "A photorealistic blue ceramic coffee mug beside a croissant", "-o", "mug_4step.png", "-t", "2"]

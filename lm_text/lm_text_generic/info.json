@@ -1,0 +1,22 @@
+{
+  "name": "LMTextGeneric",
+  "type": "lm_text",
+  "api": "lm_text.v1",
+  "description": "Language Models use cases",
+  "author": "Arm Limited",
+  "version": "1.0.0",
+  "deps": [],
+  "models": {
+    "hy-mt2-1-8b-2bit-translation": {
+      "description": "Hunyuan-MT2 1.8B translation model: 2-bit",
+      "sources": [
+        {
+          "kind": "huggingface",
+          "url": "https://huggingface.co/Arm/hy-mt2-1-8b-2bit-translation-gguf",
+          "ref": "9e45b9e53910ac9631125b0117d3a2c3156be0b3"
+        }
+      ],
+      "sha256": "40daa94465b71a3dd8f03484cb7f55333c136728bd803a460685bd34a0bf2a16"
+    }
+  }
+}

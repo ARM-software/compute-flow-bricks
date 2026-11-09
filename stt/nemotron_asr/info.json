@@ -1,0 +1,21 @@
+{
+  "name": "NemotronASR",
+  "type": "stt",
+  "api": "stt.v1",
+  "description": "Transcribe speech with multilingual Nemotron 3.5.",
+  "author": "Arm Limited",
+  "version": "1.0.0",
+  "models": {
+    "nemotron-3-5-asr-executorch-fp32": {
+      "description": "Multilingual speech transcription with Nemotron 3.5.",
+      "sources": [
+        {
+          "kind": "huggingface",
+          "url": "https://huggingface.co/Arm/nemotron-3-5-asr-executorch-fp32",
+          "ref": "5f96a61ee1cf9d95563d0c1076a808584a59335c"
+        }
+      ],
+      "sha256": "3679cc3b2e6686ad1c4cf7c75ea860c48b5dad42408a0e8949f29bbdfc656a39"
+    }
+  }
+}
