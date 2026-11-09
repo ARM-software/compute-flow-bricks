@@ -17,4 +17,4 @@ All documentation, tutorials, how-to guides, and examples are maintained in the
 [Start there](https://github.com/ARM-software/compute-flow/tree/main/docs) to install and run
 bricks, build AI pipelines, or develop new bricks.
 
-Licensed under the [Apache License 2.0](LICENSES/Apache-2.0.txt).
+Licensed under the [Apache License 2.0](LICENSE).
