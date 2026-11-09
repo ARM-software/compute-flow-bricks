@@ -1,0 +1,15 @@
+audio_detection/nemotron3_diarization
+audio_detection/perch
+audio_to_audio/ulunas
+audio_tool_calling/neu_decide
+image_generation/flux2_klein_generation
+lm_text/lm_text_generic
+monocular_depth_estimation/depth_anything_v3
+monocular_depth_estimation/zip_depth
+object_detection/yolo
+stt/moonshine
+stt/nemotron_asr
+stt/parakeet_tdt
+tts/pocket_tts
+tts/qwen3_tts
+vad/silero

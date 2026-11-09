@@ -1,0 +1,21 @@
+{
+  "name": "FLUX2KleinGeneration",
+  "type": "image_generation",
+  "api": "image_generation.v1",
+  "description": "Generate an image from a text prompt using FLUX.2 Klein 4B.",
+  "author": "Arm Limited",
+  "version": "1.0.0",
+  "models": {
+    "flux2klein-4b-generation-int4-320px": {
+      "description": "Generate 320-pixel square images from a text prompt.",
+      "sources": [
+        {
+          "kind": "huggingface",
+          "url": "https://huggingface.co/Arm/flux2-klein-4b-generation-int4-320px",
+          "ref": "c33d875aa0bbcd2e85a8b81ea12ec38c3825301e"
+        }
+      ],
+      "sha256": "ecc1b11dbb04b8384d1047416c854fae01bba7e26df599dbe8573fdb4ec58e13"
+    }
+  }
+}

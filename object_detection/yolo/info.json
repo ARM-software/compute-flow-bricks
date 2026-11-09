@@ -1,0 +1,35 @@
+{
+  "name": "Yolo",
+  "type": "object_detection",
+  "api": "object_detection.v1",
+  "description": "Object detection and classification using YOLO.",
+  "author": "Arm Limited",
+  "version": "1.0.0",
+  "deps": [
+    "nlohmann_json"
+  ],
+  "models": {
+    "yolo-v26n-litert-f16": {
+      "description": "Yolo-v26n LiteRT object detection fp16",
+      "sources": [
+        {
+          "kind": "huggingface",
+          "url": "https://huggingface.co/Arm/yolo26n-fp16-litert",
+          "ref": "5fc4c330e60d6e58abc3a7ea6a3afc97d9ef9155"
+        }
+      ],
+      "sha256": "7b62d2d24f691333277df8c1a19d80938e14f276f2a85425f5460c2e52097261"
+    },
+    "yolo-v26n-litert-f16-int8w": {
+      "description": "Yolo-v26n LiteRT object detection fp16 with int8 Conv2D and Fully Connected weights",
+      "sources": [
+        {
+          "kind": "huggingface",
+          "url": "https://huggingface.co/Arm/yolo26n-int8w-litert",
+          "ref": "16a6e5cd473fb3ab01a418f14a1ea7bba07c70c4"
+        }
+      ],
+      "sha256": "c7872a19e2c2b73d305458e8da6cf7c41fdd2dc343879565463329204309a0ff"
+    }
+  }
+}

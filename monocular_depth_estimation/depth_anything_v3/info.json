@@ -1,0 +1,22 @@
+{
+  "name": "DepthAnythingV3",
+  "type": "monocular_depth_estimation",
+  "api": "monocular_depth_estimation.v1",
+  "description": "Monocular relative depth estimation using Depth Anything 3",
+  "author": "Arm Limited",
+  "version": "1.0.0",
+  "deps": [],
+  "models": {
+    "da3-small-litert-fp16-compute": {
+      "description": "Depth Anything 3 Small static-core LiteRT model with ExecuTorch resizing and FP16 compute.",
+      "sources": [
+        {
+          "kind": "huggingface",
+          "url": "https://huggingface.co/Arm/depth-anything-v3-small-mix-precision",
+          "ref": "685702a5a8dcf651c58de57f2a1378ecbfee27c5"
+        }
+      ],
+      "sha256": "72241d41911f13cd63cf5c9f0f95c3ebcb448756626cf406a6eb6c803e41bc88"
+    }
+  }
+}

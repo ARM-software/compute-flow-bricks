@@ -1,0 +1,22 @@
+{
+  "name": "Moonshine",
+  "type": "stt",
+  "api": "stt.v1",
+  "description": "Speech-to-text transcription using Moonshine encoder-decoder model.",
+  "author": "Arm Limited",
+  "version": "1.0.0",
+  "deps": [],
+  "models": {
+    "moonshine-base-en": {
+      "description": "Moonshine Base fp32: English",
+      "sources": [
+        {
+          "kind": "huggingface",
+          "url": "https://huggingface.co/Arm/moonshine-base-en-fp32-onnx",
+          "ref": "acde91cdac8a419bd20769dd6e3b3757913a5553"
+        }
+      ],
+      "sha256": "75b63664d257216950ca30725be08a002a3a6fe030588d50dabad9ef872d1e2c"
+    }
+  }
+}

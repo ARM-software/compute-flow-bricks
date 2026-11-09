@@ -1,0 +1,24 @@
+{
+  "name": "Perch",
+  "type": "audio_detection",
+  "api": "audio_detection.v1",
+  "description": "Fixed-window acoustic detection using Perch.",
+  "author": "Arm Limited",
+  "version": "1.0.0",
+  "deps": [
+    "nlohmann_json"
+  ],
+  "models": {
+    "perch-v2-8bit": {
+      "description": "Perch v2 8-bit",
+      "sources": [
+        {
+          "kind": "huggingface",
+          "url": "https://huggingface.co/Arm/perch-v2-int8-litert",
+          "ref": "825c061e121b789473d5c7f70c7af67dddc4361f"
+        }
+      ],
+      "sha256": "d16d7c3722a0d1089b23e049ff633c2430d479a971c17b5f16d9d560fc616f5e"
+    }
+  }
+}
